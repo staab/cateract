@@ -4,7 +4,17 @@ This is a script for viewing files interactively. Inspired by [fzf](https://gith
 
 # Usage
 
-`cateract my-file`
+```
+usage: cateract [-h] filename
+
+An interactive cli file viewer
+
+positional arguments:
+  filename    The name of the file to view
+
+optional arguments:
+  -h, --help  show this help message and exit
+```
 
 Once in the interactive prompt, cateract pipes the contents of the file to an executable of your choice. Further redirection is not supported, as all arguments are shell-quoted. This allows something like `jq .|length` to work as expected without having to quote the argument manually.
 
