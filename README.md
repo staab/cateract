@@ -2,4 +2,12 @@ This is a script for viewing files (or buffers) interactively. Inspired by [fzf]
 
 # Installation
 
-Make sure `python3` is a valid command on your system, then install using `curl https://github.com/staab/cateract/cateract > /usr/local/bin/cateract`.
+Make sure `python3` is a valid command on your system, then install:
+
+```
+mkdir -p ~/.local/bin
+curl https://raw.githubusercontent.com/staab/cateract/master/cateract > ~/.local/bin/cateract
+chmod +x ~/.local/bin/cateract
+```
+
+Then, make sure ~/.local/bin is in your path.
