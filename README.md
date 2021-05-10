@@ -1,5 +1,7 @@
 This is a script for viewing files (or buffers) interactively. Inspired by [fzf](https://github.com/junegunn/fzf), which is an interactive cli file-picker.
 
+![Demo](https://asciinema.org/a/413162)
+
 # Installation
 
 Make sure `python3` is a valid command on your system, then install:
