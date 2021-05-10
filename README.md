@@ -1,6 +1,6 @@
 This is a script for viewing files (or buffers) interactively. Inspired by [fzf](https://github.com/junegunn/fzf), which is an interactive cli file-picker.
 
-![Demo](https://asciinema.org/a/413162)
+[![asciicast](https://asciinema.org/a/413162.svg)](https://asciinema.org/a/413162)
 
 # Installation
 
